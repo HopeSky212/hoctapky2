@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+#body {
+    width: 840px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 30px;
+}
+#body #body-left{
+    flex: 1;
+    background-color: #FAF096;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px 0 0 30px;
+}
+#body #body-right{
+    flex: 1;
+    right: 10px;
+    height: 400px;
+    padding: 20px;
+}
+#body #body-left #left-text {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#body #body-right #icon-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#body #body-right #icon-right #icon {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#body #body-right #right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#body #body-right #right-content #body-right-flex {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 350px;
+}
+#body #body-right #right-content #body-right-flex #right-flex {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    border-bottom: 1px solid black;
+    width: 350px;
+}
+
+#body #body-right #right-content #body-right-flex #register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #FFD333;
+    background-color: #FFD333;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#body #body-right #right-content #body-right-flex #login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    font-weight: bolder;
+    font-size: 20px;
+}
